@@ -1,0 +1,1 @@
+# Project status [![Build status](https://ci.appveyor.com/api/projects/status/2q7348pglod7eb53/branch/main?svg=true)](https://ci.appveyor.com/project/FoRJim/carddeliveryorder/branch/main)
