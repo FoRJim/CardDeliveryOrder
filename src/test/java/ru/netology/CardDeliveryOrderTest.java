@@ -12,7 +12,6 @@ public class CardDeliveryOrderTest {
 
     @Test
     void shouldTestSubmitForm() {
-        Configuration.holdBrowserOpen= true;
         open("http://localhost:9999/");
         $("[data-test-id=city] input").setValue("Пермь");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL,"a", Keys.BACK_SPACE);
