@@ -1,14 +1,12 @@
 package ru.netology;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 import java.time.Duration;
 import static com.codeborne.selenide.Selenide.*;
 
 public class CardDeliveryOrderTest {
-
 
     @Test
     void shouldTestSubmitForm() {
